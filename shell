@@ -1,0 +1,7 @@
+# SHELL TEST ANSWER
+
+$ cd mig33/inner.folder;
+$ for file_biznet in *.txt;
+> do
+> mv "$file_biznet" "${file_biznet%.txt}.dat"
+> done
